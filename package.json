@@ -1,0 +1,40 @@
+{
+  "name": "ide",
+  "version": "1.0.0",
+  "description": "Integrated develop environment for private-easy-use.",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "compile": "coffee -o ./ ./main.coffee"
+  },
+  "bin": {
+    "ide": "ide.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artovenry/ide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artovenry/ide/issues"
+  },
+  "homepage": "https://github.com/artovenry/ide#readme",
+  "dependencies": {
+    "byte-size": "^7.0.1",
+    "chokidar": "^3.5.1",
+    "coffeescript": "^2.5.1",
+    "cpx": "^1.5.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^10.0.0",
+    "lodash.debounce": "^4.0.8",
+    "mkdirp": "^1.0.4",
+    "npm-run-all": "^4.1.5",
+    "pug": "^3.0.2",
+    "purgecss": "^4.0.3",
+    "rimraf": "^3.0.2",
+    "sass": "^1.34.1",
+    "serve": "^12.0.0",
+    "ws": "^7.4.6"
+  }
+}
